@@ -342,11 +342,11 @@ h6 {
   color: #eba0b6
 }
 .display-4-pink {
-  font-family: "Londrina Solid", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px !important;
-  line-height: 27px;
+  font-size: 25px !important;
+  line-height: 2px;
   text-align: center;
   color: #d71c5b
 }
@@ -379,10 +379,10 @@ h6 {
   font-weight: 800
 }
 .text-special {
-  font-family: "Londrina Solid", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #1b8481 !important
 }
