@@ -382,17 +382,16 @@ h6 {
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
-  line-height: 41px;
+  margin-bottom: 20px;
   color: #1b8481;
   text-transform: uppercase
 }
 .word {
-  color: #1b8481
+  color: #1b8481;
+  text-align: center
 }
 .word span {
   position: absolute;
-  top: 20px;
-  overflow: hidden;
   -webkit-animation: rotateX 12s linear infinite;
   animation: rotateX 12s linear infinite;
   opacity: 0
@@ -456,4 +455,11 @@ h6 {
 .word span:nth-child(4) {
   -webkit-animation-delay: 10s;
   animation-delay: 10s
+}
+@media screen and (max-width:992px) {
+  .word span {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important
+  }
 }
