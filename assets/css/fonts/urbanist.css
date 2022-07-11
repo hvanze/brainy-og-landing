@@ -377,3 +377,83 @@ h6 {
 .btn-gradient {
   background: #d71c5b
 }
+.text-special {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 41px;
+  color: #1b8481;
+  text-transform: uppercase
+}
+.word {
+  color: #1b8481
+}
+.word span {
+  position: absolute;
+  top: 20px;
+  overflow: hidden;
+  -webkit-animation: rotateX 12s linear infinite;
+  animation: rotateX 12s linear infinite;
+  opacity: 0
+}
+@-webkit-keyframes rotateX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+  2% {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+  18% {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+  20% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+}
+@keyframes rotateX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+  2% {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+  18% {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+  20% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(90deg)
+  }
+}
+.word span:nth-child(1) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s
+}
+.word span:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s
+}
+.word span:nth-child(3) {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s
+}
+.word span:nth-child(4) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s
+}
