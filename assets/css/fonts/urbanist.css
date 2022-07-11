@@ -266,7 +266,7 @@ h6 {
   font-size: 20px !important;
   line-height: 27px;
   text-align: center;
-  color: #1b8481
+  color: #1b8481 !important
 }
 .fs-h3 {
   font-family: Nunito, sans-serif;
@@ -342,10 +342,10 @@ h6 {
   color: #eba0b6
 }
 .display-4-pink {
-  font-family: Nunito, sans-serif;
+  font-family: "Londrina Solid", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 20px !important;
+  font-size: 40px !important;
   line-height: 27px;
   text-align: center;
   color: #d71c5b
@@ -370,91 +370,21 @@ h6 {
   font-family: Nunito;
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 30px;
+  font-size: 20px !important;
+  line-height: 30px !important;
   color: #4f4f4f
 }
 .btn-gradient {
-  background: #d71c5b
+  background: #d71c5b;
+  font-weight: 800
 }
 .text-special {
-  font-family: Nunito;
+  font-family: "Londrina Solid", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
-  color: #1b8481;
-  text-transform: uppercase
-}
-.word {
-  color: #1b8481;
-  text-align: center
-}
-.word span {
-  position: absolute;
-  -webkit-animation: rotateX 12s linear infinite;
-  animation: rotateX 12s linear infinite;
-  opacity: 0
-}
-@-webkit-keyframes rotateX {
-  0% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-  2% {
-    opacity: 1;
-    transform: rotateX(0)
-  }
-  18% {
-    opacity: 1;
-    transform: rotateX(0)
-  }
-  20% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-  100% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-}
-@keyframes rotateX {
-  0% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-  2% {
-    opacity: 1;
-    transform: rotateX(0)
-  }
-  18% {
-    opacity: 1;
-    transform: rotateX(0)
-  }
-  20% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-  100% {
-    opacity: 0;
-    transform: rotateX(90deg)
-  }
-}
-.word span:nth-child(1) {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s
-}
-.word span:nth-child(2) {
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s
-}
-.word span:nth-child(3) {
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s
-}
-.word span:nth-child(4) {
-  -webkit-animation-delay: 10s;
-  animation-delay: 10s
+  color: #1b8481 !important
 }
 @media screen and (max-width:992px) {
   .word span {
