@@ -202,8 +202,8 @@ h6 {
 }
 .display-4 {
   font-size: calc(1.315rem + .78vw);
-  line-height: 1.25;
   font-family: "Londrina Solid", cursive;
+  line-height: 1;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 900 !important;
@@ -254,17 +254,15 @@ h6 {
   font-style: normal;
   font-weight: 900;
   font-size: 38px !important;
-  line-height: 45px;
   text-align: center;
   letter-spacing: .08em !important;
   color: #85d0ce
 }
-.display-4-pink-red {
+.display-4-green {
   font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 20px !important;
-  line-height: 27px;
   text-align: center;
   color: #1b8481 !important
 }
@@ -272,16 +270,14 @@ h6 {
   font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 20px !important;
-  line-height: 27px;
+  font-size: 18px;
   color: #4f4f4f
 }
 .fs-p {
   font-family: Nunito;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px !important;
-  line-height: 25px !important;
+  font-size: 17px;
   color: #4f4f4f
 }
 .display-4-deep-purple {
@@ -294,7 +290,8 @@ h6 {
   color: #612053
 }
 .uil-check {
-  background: #612053 !important
+  background: #f7ae26 !important;
+  color: #fff
 }
 .btn-section-one {
   background: #612053;
@@ -313,8 +310,8 @@ h6 {
   color: #f7ae26
 }
 .uil-check-other {
-  background: #f7ae26 !important;
-  color: #fff !important
+  background: #d71c5b !important;
+  color: #fff
 }
 .btn-section-two {
   background: #f7ae26 !important;
@@ -329,7 +326,8 @@ h6 {
   font-weight: 900;
   font-size: 17px;
   line-height: 23px;
-  color: #1b8481
+  text-align: center;
+  color: #4f4f4f
 }
 .h2-pink {
   font-family: "Londrina Solid", sans-serif;
@@ -354,7 +352,7 @@ h6 {
   font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 27px;
   color: #4f4f4f
 }
@@ -367,16 +365,17 @@ h6 {
   color: #d71c5b
 }
 .p-main {
-  font-family: Nunito;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px !important;
   line-height: 30px !important;
-  color: #4f4f4f
+  color: #4f4f4f !important
 }
 .btn-gradient {
   background: #d71c5b;
-  font-weight: 800
+  font-weight: 800;
+  font-size: .85rem
 }
 .text-special {
   font-family: Nunito, sans-serif;
@@ -385,6 +384,40 @@ h6 {
   font-size: 30px;
   margin-bottom: 20px;
   color: #1b8481 !important
+}
+.display-4-pink-other {
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 2px !important;
+  letter-spacing: 0 !important;
+  color: #d71c5b
+}
+.display-4-pink-other-1 {
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0
+}
+br {
+  margin-top: 100px !important
+}
+.display-4-pink-red {
+  font-family: "Londrina Solid", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: .08em;
+  color: #d71c5b
+}
+.display-4-green-title {
+  font-family: "Londrina Solid";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #1b8481
 }
 @media screen and (max-width:992px) {
   .word span {
