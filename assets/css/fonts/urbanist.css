@@ -4,7 +4,8 @@
 }
 body {
   font-family: Nunito, sans-serif;
-  font-size: .85rem
+  font-size: .85rem;
+  background-color: rgba(134, 208, 205, .15)
 }
 .accordion-wrapper .card-header button,
 .badge,
@@ -208,8 +209,7 @@ h6 {
   font-style: normal;
   font-weight: 900 !important;
   font-size: 43px !important;
-  letter-spacing: .08em !important;
-  color: #d71c5b
+  letter-spacing: .08em !important
 }
 @media (min-width:1200px) {
   .display-4 {
@@ -232,197 +232,5 @@ h6 {
 @media (min-width:1200px) {
   .display-6 {
     font-size: 1.5rem
-  }
-}
-.bg23 {
-  border-radius: 20px
-}
-.cards {
-  flex-direction: column
-}
-.btn-rounded {
-  background: #6c2d65;
-  color: #fff !important;
-  display: flex
-}
-.btn-rounded a {
-  color: #fff !important;
-  text-transform: uppercase
-}
-.h2-green {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px !important;
-  text-align: center;
-  letter-spacing: .08em !important;
-  color: #85d0ce
-}
-.display-4-green {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px !important;
-  text-align: center;
-  color: #1b8481 !important
-}
-.fs-h3 {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: #4f4f4f
-}
-.fs-p {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  color: #4f4f4f
-}
-.display-4-deep-purple {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px !important;
-  line-height: 45px;
-  letter-spacing: .08em !important;
-  color: #612053
-}
-.uil-check {
-  background: #f7ae26 !important;
-  color: #fff
-}
-.btn-section-one {
-  background: #612053;
-  color: #fff !important;
-  width: 167px;
-  height: 45px;
-  text-transform: uppercase
-}
-.display-4-gold {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px !important;
-  line-height: 45px;
-  letter-spacing: .08em !important;
-  color: #f7ae26
-}
-.uil-check-other {
-  background: #d71c5b !important;
-  color: #fff
-}
-.btn-section-two {
-  background: #f7ae26 !important;
-  color: #fff !important;
-  width: 167px;
-  height: 45px;
-  text-transform: uppercase
-}
-.fs-h4 {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 17px;
-  line-height: 23px;
-  text-align: center;
-  color: #4f4f4f
-}
-.h2-pink {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px !important;
-  line-height: 45px;
-  text-align: center;
-  letter-spacing: .08em !important;
-  color: #eba0b6
-}
-.display-4-pink {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 25px !important;
-  line-height: 2px;
-  text-align: center;
-  color: #d71c5b
-}
-h6 {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px !important;
-  line-height: 27px;
-  color: #4f4f4f
-}
-.display-lead {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900 !important;
-  font-size: 20px !important;
-  line-height: 27px;
-  color: #d71c5b
-}
-.p-main {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px !important;
-  line-height: 30px !important;
-  color: #4f4f4f !important
-}
-.btn-gradient {
-  background: #d71c5b;
-  font-weight: 800;
-  font-size: .85rem
-}
-.text-special {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: #1b8481 !important
-}
-.display-4-pink-other {
-  font-family: Nunito, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 2px !important;
-  letter-spacing: 0 !important;
-  color: #d71c5b
-}
-.display-4-pink-other-1 {
-  font-family: Nunito, sans-serif;
-  font-size: 20px;
-  letter-spacing: 0
-}
-br {
-  margin-top: 100px !important
-}
-.display-4-pink-red {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px;
-  letter-spacing: .08em;
-  color: #d71c5b
-}
-.display-4-green-title {
-  font-family: "Londrina Solid";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 38px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: #1b8481
-}
-@media screen and (max-width:992px) {
-  .word span {
-    position: absolute !important;
-    left: 0 !important;
-    right: 0 !important
   }
 }

@@ -9,9 +9,9 @@ var theme = {
   init: function () {
     theme.stickyHeader();
     theme.subMenu();
-    /* theme.offCanvas();*/
+    theme.offCanvas();
     theme.isotope();
-    /*theme.onepageHeaderOffset();*/
+    theme.onepageHeaderOffset();
     theme.anchorSmoothScroll();
     theme.svgInject();
     theme.backgroundImage();
